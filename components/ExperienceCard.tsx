@@ -27,15 +27,30 @@ function ExperienceCard({}: Props) {
 
         <div className="flex space-x-2 my-2"></div>
 
-        <p className="uppercase py-5 text-gray-300">Started ...</p>
+        <p className="py-5 text-gray-300">Nov 2022 - Sept 2023</p>
 
-        <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
+        <ul className="list-disc space-y-4 ml-5 text-md">
+          <li>
+            Collaborated cross-functionally with UI/UX and product teams to
+            develop core features.
+          </li>
+          <li>
+            Managed the software development lifecycle, from sizing story points
+            and epics to leveraging GitHub Actions CI/CD for deployment to
+            production.
+          </li>
+          <li>
+            Maintained GitHub version control, ensuring PRs supported
+            comprehensive epic features.
+          </li>
+          <li>
+            Conducted comprehensive testing using Minitest, supported the QA
+            process in rotation.
+          </li>
+          <li>
+            Prototyped features using tools like AWS Translate to enhance user
+            experience and accessibility.
+          </li>
         </ul>
       </div>
     </article>
