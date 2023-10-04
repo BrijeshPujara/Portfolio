@@ -18,7 +18,9 @@ function Contact({}: Props) {
     handleSubmit,
   } = useForm<Inputs>();
 
-  const onSubmit: SubmitHandler<Inputs> = (formData) =>;
+  const onSubmit: SubmitHandler<Inputs> = (formData) => {
+
+  }
 
   return (
     <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
@@ -29,7 +31,7 @@ function Contact({}: Props) {
       <div className="flex flex-col space-y-10">
         <h4 className="text-4xl font-semibold text-center">
           Happy to chat, get in touch.{" "}
-          <span className="decoration-[#F7AB0A]/50 underline">
+          <span className="decoration-[#390af7]/50 underline">
             {" "}
             Contact me.
           </span>
@@ -37,11 +39,11 @@ function Contact({}: Props) {
 
         <div className="space-y-10">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#F8AB0A] h-7 w-7 animate-pulse" />
+            <PhoneIcon className="text-[#390af7] h-7 w-7 animate-pulse" />
             <p className="text-2xl">+447538986983</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#F8AB0A] h-7 w-7 animate-pulse" />
+            <EnvelopeIcon className="text-[#390af7] h-7 w-7 animate-pulse" />
             <p className="text-2xl">pujara.brijesh1@gmail.com</p>
           </div>
         </div>
@@ -57,7 +59,7 @@ function Contact({}: Props) {
           <textarea {...register('message')} placeholder="Message" className="contactInput" />
           <button
             type="submit"
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg"
+            className="bg-[#390af7] py-5 px-10 rounded-md text-black font-bold text-lg"
           >
             Submit
           </button>
